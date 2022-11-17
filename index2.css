@@ -1,0 +1,29 @@
+body{
+    margin-top: 300px;
+    background-image: url(photo/background11.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    
+
+}
+
+.bowl1{text-align: center; width: 100%;}
+.bowl1 .bg_img{ width: 100%; }
+
+.btn61-box{text-align: center;}
+.btn61-box .btn61{border: none;border-radius:10px ;padding: 10px 20px;margin-top: 20px;
+}
+
+.btn62-box{text-align: center;}
+.btn62-box .btn62{border: none;border-radius:10px ;padding: 10px 20px;margin-top: 20px;
+}
+
+.btn63-box{text-align: center;}
+.btn63-box .btn63{border: none;border-radius:10px ;padding: 10px 20px;margin-top: 20px;
+}
+
+.btn7-box{text-align: center;}
+.btn7-box .btn7{border: none;border-radius:10px ;padding: 10px 20px;margin-top: 20px;
+}
+
+#dicebox1{position: relative;}

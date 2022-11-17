@@ -1,0 +1,14 @@
+body{
+    margin-top: 100px;
+    background-image: url(photo/background11.png);
+    background-position:center;
+    background-repeat: no-repeat;
+
+}
+h1{
+    text-align: center;
+    margin-top: -30px;
+}
+.btn3-box{text-align: center;}
+.btn3-box .btn3{border: none;border-radius:10px ;padding: 10px 20px;;
+}

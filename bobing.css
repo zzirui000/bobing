@@ -1,0 +1,19 @@
+body{
+    margin-top: 350px;
+    background-image: url(photo/background11.png);
+    background-position:center;
+    background-repeat: no-repeat;
+
+}
+
+.btn1-box{text-align: center;}
+.btn1-box .btn1{border: none;border-radius:10px ;padding: 10px 20px;margin-top: 20px;
+}
+
+.btn4-box{text-align: center;}
+.btn4-box .btn4{border: none;border-radius:10px ;padding: 10px 20px;margin-top: 20px;
+}
+
+.btn5-box{text-align: center;}
+.btn5-box .btn5{border: none;border-radius:10px ;padding: 10px 20px;margin-top: 20px;
+}

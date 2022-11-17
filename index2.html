@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title></title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no" />
+		
+		<link rel="stylesheet" href="index2.css" />
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js" ></script>
+	</head>
+	<body>
+		<span id="result" style="width: 100%;text-align: center;float: left;"></span>
+
+		
+			<div class="bowl1" id="dicebox1">
+				
+				
+			</div>
+		
+		<div class="btn61-box">
+			<input class="btn61" type="button" value="player1 click" onclick="begin()" data-status='s0'/>
+		</div>
+
+
+
+		<div class="btn7-box">
+			<input class="btn7" type="button" value="back" onclick="window.location.href='bobing.html'">
+		</div>
+
+		<script type="text/javascript" src="js/dice.js" ></script>
+		<script>
+			function begin(){
+				if($(".btn61").attr("data-status")=='s0'){
+					$(".btn61").attr("data-status",'s1');
+					dicefun.init();
+				}
+				
+				
+			}
+		</script>
+	</body>
+</html>
